@@ -137,6 +137,28 @@ with result:
                                 league=comp, comparison=comparison, age=age, count=count)
     st.table(recoms)
 
+
+with teams:
+    st.text(' \n')
+    st.header("Team")
+    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+
+    with col1:
+        st.image('images/bijay.jpg', width=150)
+        st.write('**Bijay Sapkota**')
+
+    with col2:
+        st.image('images/ishan.jpg', width=150)
+        st.write('**Ishan Panta**')
+
+    with col3:
+        st.image('images/manish.png', width=150)
+        st.write('**Manish Shivabhakti**')
+
+    with col4:
+        st.image('images/priyanshu.jpg', width=150)
+        st.write('**Priyanshu Sharma**')
+
 with credit:
     st.text(' \n')
     st.text(' \n')
